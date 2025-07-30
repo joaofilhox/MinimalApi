@@ -1,6 +1,10 @@
 using Minimal_Api.Dominio.DTOs;
+using Minimal_Api.Infraestrutura.Db;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<DbContexto>();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
