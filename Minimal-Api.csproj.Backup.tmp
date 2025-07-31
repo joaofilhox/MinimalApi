@@ -21,4 +21,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dominio\NovaPasta1\" />
+    <Folder Include="Dominio\NovaPasta\" />
+  </ItemGroup>
+
 </Project>
