@@ -38,4 +38,3 @@ C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.
 C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\obj\Debug\net7.0\Minimal-Api.csproj.AssemblyReference.cache
 C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\obj\Debug\net7.0\Minimal-Api.sourcelink.json
 C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\obj\Debug\net7.0\Minimal-.F15E9CD0.Up2Date
-C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
