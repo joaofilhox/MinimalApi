@@ -59,6 +59,26 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Minimal-Api"
+        ],
+        "parameters": [
+          {
+            "name": "pagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     }
   },
