@@ -13,6 +13,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Home"
     ]
   },
   {
@@ -35,6 +38,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Administrador"
     ]
   },
   {
@@ -57,6 +63,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Veiculo"
     ]
   },
   {
@@ -79,6 +88,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Veiculo"
     ]
   }
 ]

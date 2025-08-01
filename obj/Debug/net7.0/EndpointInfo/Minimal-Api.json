@@ -5,22 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/": {
-      "get": {
-        "tags": [
-          "Minimal-Api"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/administradores/login": {
       "post": {
         "tags": [
-          "Minimal-Api"
+          "Administrador"
         ],
         "requestBody": {
           "content": {
@@ -39,10 +27,22 @@
         }
       }
     },
+    "/": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/veiculos": {
       "post": {
         "tags": [
-          "Minimal-Api"
+          "Veiculo"
         ],
         "requestBody": {
           "content": {
@@ -62,7 +62,7 @@
       },
       "get": {
         "tags": [
-          "Minimal-Api"
+          "Veiculo"
         ],
         "parameters": [
           {
