@@ -5,6 +5,28 @@
     "version": "1.0"
   },
   "paths": {
+    "/administradores": {
+      "get": {
+        "tags": [
+          "administradores"
+        ],
+        "parameters": [
+          {
+            "name": "pagina",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/administradores/login": {
       "post": {
         "tags": [
@@ -15,6 +37,51 @@
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/LoginDTO"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/administradores/{id}": {
+      "get": {
+        "tags": [
+          "Administradores"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Administradores": {
+      "post": {
+        "tags": [
+          "Administradores"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdministradorDTO"
               }
             }
           },
@@ -159,6 +226,23 @@
   },
   "components": {
     "schemas": {
+      "AdministradorDTO": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "senha": {
+            "type": "string",
+            "nullable": true
+          },
+          "perfil": {
+            "$ref": "#/components/schemas/Perfil"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginDTO": {
         "type": "object",
         "properties": {
@@ -172,6 +256,14 @@
           }
         },
         "additionalProperties": false
+      },
+      "Perfil": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "VeiculoDTO": {
         "type": "object",

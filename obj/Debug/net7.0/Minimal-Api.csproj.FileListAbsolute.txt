@@ -44,3 +44,10 @@ C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.
 C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\obj\Debug\net7.0\Minimal-Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\filho\Desktop\dotnet\minimalApi\Minimal-Api\Minimal-Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
