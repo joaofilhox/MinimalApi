@@ -1,5 +1,4 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Minimal_Api.Dominio.Entidades;
 
 namespace Minimal_Api.Infraestrutura.Db;
@@ -11,8 +10,8 @@ public class DbContexto : DbContext
     {
         _configuracaoAppSettings = configuracaoAppSettings;
     }
-    public DbSet<Administrador> Administradores { get; set; } = default!;
-    public DbSet<Veiculo> Veiculos { get; set; } = default!;
+    public virtual DbSet<Administrador> Administradores { get; set; } = default!;
+    public virtual DbSet<Veiculo> Veiculos { get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

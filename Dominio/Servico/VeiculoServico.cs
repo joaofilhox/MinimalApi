@@ -18,16 +18,14 @@ public class VeiculoServico : IVeiculoServico
         var query = _dbContexto.Veiculos.AsQueryable();
         if (!string.IsNullOrEmpty(nome))
         {
-            query = query.Where(v => EF.Functions.Like(v.Nome.ToLower(), $"%{nome}%"));
+            query = query.Where(v => v.Nome.ToLower().Contains(nome.ToLower()));
         }
-
         int itensPorPagina = 10;
-        
-        if(pagina != null)
+        if (pagina != null)
         {
             query = query.Skip(((int)pagina - 1) * itensPorPagina).Take(itensPorPagina);
         }
-            return query.ToList();
+        return query.ToList();
     }
 
     public Veiculo? BuscarPorId(int id)
